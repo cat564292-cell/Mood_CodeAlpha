@@ -1,0 +1,12 @@
+{
+  "name": "mood-ai-music",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "concurrently \"python app.py\" \"npx serve . -p 5500 --no-clipboard\"",
+    "server": "python app.py",
+    "client": "npx serve . -p 5500"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
